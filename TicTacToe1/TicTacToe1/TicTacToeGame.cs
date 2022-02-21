@@ -16,11 +16,7 @@ namespace TicTacToe1
                 board[i] = ' ';
 
             }
-            foreach (char i in board)
-            {
-                Console.WriteLine(i);
-
-            }
+          
 
 
 
