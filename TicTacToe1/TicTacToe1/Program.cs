@@ -11,6 +11,8 @@ namespace TicTacToe1
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to TiTacToe");
+            TicTacToeGame game = new TicTacToeGame();
+            game.CreateBoard();
                 Console.ReadLine();
         }
     }
