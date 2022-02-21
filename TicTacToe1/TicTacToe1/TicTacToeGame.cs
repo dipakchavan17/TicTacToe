@@ -23,13 +23,13 @@ namespace TicTacToe1
             int value = random.Next(0, 2);
             if(value == 0)
             {
-                Console.WriteLine("Computer plays first");
+                
                 Console.WriteLine("(cmputer inputs 'x'");
             }
             if(value==1)
             {
 
-                Console.WriteLine("user play first");
+               
                 Console.WriteLine("( User inputs 'o'");
 
             }
