@@ -24,13 +24,13 @@ namespace TicTacToe1
             if(value == 0)
             {
                 
-                Console.WriteLine("(cmputer inputs 'x'");
+                Console.WriteLine("Player played 'x'");
             }
             if(value==1)
             {
 
                
-                Console.WriteLine("( User inputs 'o'");
+                Console.WriteLine("( player played 'o'");
 
             }
         }
