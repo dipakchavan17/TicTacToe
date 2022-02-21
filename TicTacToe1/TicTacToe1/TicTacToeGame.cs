@@ -11,12 +11,12 @@ namespace TicTacToe1
         public void CreateBoard()
         {
             char[] board = new char[10];
-            for(int i = 1;i<=board.Length;i++)
+            for (int i = 1; i <= board.Length; i++)
             {
-                board[i] = '';
+                board[i] = ' ';
 
             }
-            foreach(char i in board)
+            foreach (char i in board)
             {
                 Console.WriteLine(i);
 
@@ -24,6 +24,7 @@ namespace TicTacToe1
 
 
 
-            }       }
+        }
+    }
     }
 
